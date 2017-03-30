@@ -27,7 +27,7 @@ app.use((req,res,next)=>{
 	next();
 });
 
-
+/*
 app.use((req,res,next)=>{
 	var now = new Date().toString();
 
@@ -45,7 +45,7 @@ app.use((req,res,next)=>{
 			console.log('Unable to append to sever.log.')
 		}
 	});
-});
+});*/
 
 
 
